@@ -7,7 +7,8 @@ namespace SharedFiles.ViewModel
 {
     public class MainViewModel : ViewModelBase
     {
-        private const string Url = "https://lbxamnamesample.azurewebsites.net/api/hello/name/{name}";
+        // private const string Url = "https://lbxamnamesample.azurewebsites.net/api/hello/name/{name}";
+        private const string Url = "http://localhost:7071/api/hello/name/{name}";
 
         private RelayCommand<string> _executeCommand;
         private string _name = string.Empty;
